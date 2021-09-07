@@ -82,13 +82,16 @@ p {
 .container {
   display: flex;
   justify-content: space-around;
+  justify-content: flex-start;
   width: auto;
   height: 100%;
   padding-top: 50px;
-  padding-bottom: 102px;
+  padding-bottom: 92px;
 }
 
 .content-left {
+  display: flex;
+  justify-content: flex-start;
   margin-left: 0px;
   padding: 0px;
   max-width: 500px;
@@ -118,7 +121,6 @@ p {
 
 /* FOOTER */
 .footer-content {
-  padding-top: 16px;
 width: auto;
 background-color: #101049;
 }
@@ -368,7 +370,7 @@ p {
   }
 
   /* Desktop Styles */
-  @media only screen and (min-width: 1025px) and (max-width: 1920px){
+  @media only screen and (min-width: 1025px) and (max-width: 1480px){
 .content {
   max-width: 1920px;
   padding: 30px 250px;
@@ -379,6 +381,16 @@ p {
   min-width: 300px;
   max-width: 500px;
   height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-start;
+  width: auto;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 139px;
 }
 
 }

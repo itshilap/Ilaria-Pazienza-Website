@@ -81,16 +81,15 @@ p {
 
 .container {
   display: flex;
-  justify-content: space-around;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: auto;
   height: 100%;
   padding-top: 50px;
   padding-bottom: 92px;
 }
 
+
 .content-left {
-  display: flex;
   justify-content: flex-start;
   margin-left: 0px;
   padding: 0px;
@@ -104,12 +103,12 @@ p {
   margin-right: 0px;
   padding: 0px;
   justify-content: flex-end;
-
+  
   /*display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   justify-content: flex-end;
-  /*background: #abab;*/
+
   /*margin-left: 30px;*/
 }
 

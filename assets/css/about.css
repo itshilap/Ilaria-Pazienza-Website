@@ -273,9 +273,21 @@ h4 {
   margin: auto;
 }
 
+h2 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 0px;
   margin: 0px;
 }
@@ -308,10 +320,15 @@ p {
     .container {
       display: flex;
       flex-wrap: wrap;
+      justify-content: flex-start;
       padding: 0px;
       margin: 0px;
     }
 
+    .content-left {
+      margin-left: 0px;
+      padding: 0px;
+    }
     .content-right {
       margin-top: 10px;
       margin-left: 0px;
@@ -337,7 +354,7 @@ p {
 
 .content-left {
   margin-left: 0px;
-  padding-left: 0px;
+  padding: 0px;
 }
 
 .content-right {
